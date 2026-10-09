@@ -1,0 +1,112 @@
+QUELLEN – Bilder, Videos, Schriften und Bibliotheken
+Demo-Website «Demohandwerk» (fiktives Unternehmen)
+============================================================
+
+FOTOS (Pexels-Lizenz: kostenlos nutzbar, keine Namensnennung nötig – hier trotzdem aufgeführt)
+https://www.pexels.com/de-de/lizenz/
+
+img/fotos/rohbau.jpg
+  Fotograf/in: GOWTHAM AGM
+  Quelle: https://www.pexels.com/photo/close-up-of-man-building-bricks-wall-19688828/
+
+img/fotos/rohbau-2.jpg
+  Fotograf/in: David Antonio Cruz Naira
+  Quelle: https://www.pexels.com/photo/worker-handling-bricks-on-construction-site-38561974/
+
+img/fotos/fassade.jpg
+  Fotograf/in: Trần Hồng Công
+  Quelle: https://www.pexels.com/photo/a-man-working-at-a-construction-site-10383588/
+
+img/fotos/zimmerei.jpg
+  Fotograf/in: Clément Proust
+  Quelle: https://www.pexels.com/photo/roof-construction-with-wooden-framework-and-workers-31763537/
+
+img/fotos/dach.jpg
+  Fotograf/in: Clément Proust
+  Quelle: https://www.pexels.com/photo/roof-construction-with-red-tiles-and-wooden-framework-31763538/
+
+img/fotos/elektro.jpg
+  Fotograf/in: La Miko
+  Quelle: https://www.pexels.com/photo/holes-on-white-wall-with-electrical-wires-3615735/
+
+img/fotos/maler.jpg
+  Fotograf/in: Tima Miroshnichenko
+  Quelle: https://www.pexels.com/photo/man-in-white-dress-shirt-and-black-pants-holding-a-spray-hose-6474133/
+
+img/fotos/schreiner.jpg
+  Fotograf/in: Ono  Kosuki
+  Quelle: https://www.pexels.com/photo/woodworker-cutting-wooden-plank-with-hacksaw-5974301/
+
+img/fotos/werkstatt.jpg
+  Fotograf/in: Quintin Gellar
+  Quelle: https://www.pexels.com/photo/man-using-table-saw-313776/
+
+img/fotos/garten.jpg
+  Fotograf/in: Max Vakhtbovych
+  Quelle: https://www.pexels.com/photo/garden-with-path-near-plants-and-trees-near-gazebo-7174111/
+
+img/fotos/ref1-vorher.jpg
+  Fotograf/in: Valentin Ivantsov
+  Quelle: https://www.pexels.com/photo/modern-interior-kitchen-under-renovation-36035073/
+
+img/fotos/ref1-nachher.jpg
+  Fotograf/in: Max Vakhtbovych
+  Quelle: https://www.pexels.com/photo/couch-in-a-living-room-8089155/
+
+img/fotos/ref2-vorher.jpg
+  Fotograf/in: Monica Silvestre
+  Quelle: https://www.pexels.com/photo/renovations-in-a-house-4756489/
+
+img/fotos/ref3-vorher.jpg
+  Fotograf/in: Karolina K
+  Quelle: https://www.pexels.com/photo/modern-twin-houses-with-symmetrical-design-30580640/
+
+img/fotos/ref3-nachher.jpg
+  Fotograf/in: Max Vakhtbovych
+  Quelle: https://www.pexels.com/photo/frontage-of-a-residential-house-with-garden-8134817/
+
+img/fotos/haus.jpg
+  Fotograf/in: Curtis Adams
+  Quelle: https://www.pexels.com/photo/paved-walkway-on-lawn-7601163/
+
+img/fotos/innen.jpg
+  Fotograf/in: Max Vakhtbovych
+  Quelle: https://www.pexels.com/photo/spacious-apartment-with-dining-room-6908357/
+
+img/fotos/planung.jpg (zugeschnitten)
+  Fotograf/in: Tima Miroshnichenko
+  Quelle: https://www.pexels.com/photo/close-up-shot-of-carpentry-tools-6790031/
+
+img/fotos/ref4-vorher.jpg, img/fotos/ref4-nachher.jpg, img/etappen/etappe-1.jpg … etappe-8.jpg
+  Eigene 3D-Renderings des Demohauses (aus js/house.js), keine Fotos.
+
+VIDEOS (Pexels-Lizenz, komprimiert, ohne Ton)
+
+video/zuschnitt.mp4 (+ zuschnitt-poster.jpg)
+  Video: Pavel Danilyuk
+  Quelle: https://www.pexels.com/video/man-cutting-wood-on-a-sawbench-4480589/
+
+video/werkstatt.mp4 (+ werkstatt-poster.jpg)
+  Video: Pavel Danilyuk
+  Quelle: https://www.pexels.com/video/man-using-a-chisel-and-hammer-to-cut-wood-4480557/
+
+3D-HAUS / SCROLL-GESCHICHTE
+  Selbst modelliert mit Three.js (js/house.js).
+  Texturen (Backstein, Beton, Verputz, Eiche, Bretter, Parkett, Ziegel, Stein, Erde, Rasen, Dämmung)
+  inkl. Normal-, Rauheits- und AO-Maps: selbst prozedural erzeugt, max. 1024 px, JPG.
+  HDRI-Himmel (Umgebungslicht): selbst erzeugt (RGBE in PNG, 512×256).
+  Beides eingebettet in js/textures.js, damit es auch lokal (Doppelklick) funktioniert.
+
+SCHRIFTEN (lokal im Ordner fonts/, SIL Open Font License 1.1)
+  Barlow Condensed – Jeremy Tribby – https://github.com/jpt/barlow
+  Inter – Rasmus Andersson – https://github.com/rsms/inter
+  JetBrains Mono – JetBrains – https://github.com/JetBrains/JetBrainsMono
+  Bezogen über das npm-Paket @fontsource (https://fontsource.org)
+
+BIBLIOTHEKEN (lokal im Ordner js/lib/)
+  three.js r165 inkl. Zusatzmodule RoundedBoxGeometry, EffectComposer, RenderPass, GTAOPass, OutputPass
+  – MIT-Lizenz – https://threejs.org (Lizenztext: js/lib/LICENSE-three.txt)
+  Als eine Datei gebündelt: js/lib/three.bundle.min.js (kleine Korrektur in GTAOPass für eigene Tiefentextur)
+
+LOGO & ICONS
+  Logo (Stempel mit Haus-Symbol), Favicon und Icons: selbst gestaltet als SVG.
